@@ -5,64 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="">WEBSTUDIO</a>
+    <header class="header">
+        <nav class="header-navigation">
+            <a href="" class="header-logo"><span class="header-logo-color">WEB</span>STUDIO</a>
             <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+                <li class="header-navigation"><a href="">Studio</a></li>
+                <li class="header-navigation"><a href="">Portfolio</a></li>
+                <li class="header-navigation"><a href="">Contacts</a></li>
             </ul>
             <ul>
-            <li>fo@devstudio.com</li>
-            <li>+11 (000) 111-11-11</li>
+            <li class="header-cotact">fo@devstudio.com</li>
+            <li class="header-cotact">+11 (000) 111-11-11</li>
             </ul>
         </nav>
-        <h1>Effective Solutions for Your Business</h1>
-        <h3>Order Service</h3>
-        <ul>
-            <li>
-                <p>Strategy</p>
-                <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+        <h1 class="information">Effective Solutions for Your Business</h1>
+        <h3 class="information-button">Order Service</h3>
+        <ul class="information-list">
+            <li class="information-list-material">
+                <p class="information-list-title">Strategy</p>
+                <p class="information-list-paragraph">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
             </li>
-            <li>
-                <p>Punctuality</p>
-                <p>Bring the key message to the brand's audience for the best price within the shortest possible time.
+            <li class="information-list-material">
+                <p class="information-list-title">Punctuality</p>
+                <p class="information-list-paragraph">Bring the key message to the brand's audience for the best price within the shortest possible time.
                 </p>
             </li>
-            <li>
-                <p>Diligence</p>
-                <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
+            <li class="information-list-material">
+                <p class="information-list-title">Diligence</p>
+                <p class="information-list-paragraph">Research and confirm brands that present the strongest digital growth opportunities and minimize
                     risk.</p>
             </li>
         </ul>
     </header>
-    <h2>Our Team</h2>
-    <ul>
-        <li>
-            <p><img src="./images/img-4-1.jpg" alt="Mark Guerrero">Mark Guerrero Product Designer</p>
+    <h2 class="team-title">Our Team</h2>
+    <ul class="team-list">
+        <li class="team-list-collective">
+            <p><img src="./images/img-4-1.jpg" alt="Mark Guerrero">Mark Guerrero <span class="team-list-information">Product Designer</span></p>
         </li>
-        <li>
-            <p><img src="./images/img-5-1.jpg" alt="Tom Ford">Tom Ford Frontend Developer</p>
+        <li class="team-list-collective">
+            <p><img src="./images/img-5-1.jpg" alt="Tom Ford">Tom Ford Frontend <span class="team-list-information">Developer</span></p>
         </li>
-        <li>
-            <p><img src="./images/img-2-1.jpg" alt="Camila Garcia">Camila Garcia Marketing</p>
+        <li class="team-list-collective">
+            <p><img src="./images/img-2-1.jpg" alt="Camila Garcia">Camila Garcia <span class="team-list-information">Marketing</span></p>
         </li>
-        <li>
-            <p><img src="./images/img-3-1.jpg" alt="Daniel Wilson">Daniel Wilson UI Designer</p>
+        <li class="team-list-collective">
+            <p><img src="./images/img-3-1.jpg" alt="Daniel Wilson">Daniel Wilson <span class="team-list-information">UI Designer</span></p>
         </li>
     </ul>
-    <h2>Our Portfolio</h2>
-    <ul>
-        <li><p><img src="./images/Card-Content.jpg" alt="Banking App">Banking App App</p></li>
-        <li><img src="./images/Cashless-Payment.jpg" alt="Cashless Payment">Cashless Payment Marketing</li>
-        <li><img src="./images/Meditaion-App.jpg" alt="Meditaion App">Meditaion App App</li>
-        <li><img src="./images/Taxi-Service.jpg" alt="Taxi Service">Taxi Service Marketing</li>
-        <li><img src="./images/Screen-Illustrations.jpg" alt="Screen Illustrations">Screen Illustrations Design</li>
-        <li><img src="./images/Online-Courses.jpg" alt="Online Courses">Online Courses Marketing</li>
+    <h2 class="Portfolio">Our Portfolio</h2>
+    <ul class="Portfolio-list">
+        <li class="Portfolio-list-material"><p><img src="./images/Card-Content.jpg" alt="Banking App">Banking App <span class="Portfolio-list-information">App</span></p></li>
+        <li class="Portfolio-list-material"><img src="./images/Cashless-Payment.jpg" alt="Cashless Payment">Cashless Payment <span>Marketing</span></li>
+        <li class="Portfolio-list-material"><img src="./images/Meditaion-App.jpg" alt="Meditaion App">Meditaion App <span class="Portfolio-list-information">App</span></li>
+        <li class="Portfolio-list-material"><img src="./images/Taxi-Service.jpg" alt="Taxi Service">Taxi Service <span class="Portfolio-list-information">Marketing</span></li>
+        <li class="Portfolio-list-material"><img src="./images/Screen-Illustrations.jpg" alt="Screen Illustrations">Screen Illustrations <span>Design</span></li>
+        <li class="Portfolio-list-material"><img src="./images/Online-Courses.jpg" alt="Online Courses">Online Courses <span class="Portfolio-list-information">Marketing</span></li>
     </ul>
 </body>
 
