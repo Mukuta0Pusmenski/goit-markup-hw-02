@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-/* header */
+
 .header {
 }
 
@@ -43,21 +43,6 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-/* --- */
 
-/* address */
-.contact-address {
-    font-style: normal;
-}
 
-.address-list {
-}
-
-.address-list-contact {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-/* --- */
 
