@@ -44,6 +44,11 @@ a {
     color: #2e2f42;
 }
 
+.header-navigation-content:hover,
+.header-navigation-content:focus{
+    color: #404bbf;
+}
+
 .address {
     font-style: normal;
 }
