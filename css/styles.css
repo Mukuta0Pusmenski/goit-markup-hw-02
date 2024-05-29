@@ -44,7 +44,7 @@ a {
     color: #2e2f42;
 }
 
-.header-navigation-content:hover
+.header-navigation-content:hover,
 .header-navigation-content:focus{
     color: #404bbf;
 }
@@ -63,7 +63,7 @@ a {
     color: #434455;
 }
 
-.contacts-list-content:hover
+.contacts-list-content:hover,
 .contacts-list-content:focus{
     color: #404bbf;
 }
