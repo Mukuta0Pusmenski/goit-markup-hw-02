@@ -101,13 +101,36 @@ a {
     background-color: #404BBF;
 }
 
-.information-list {}
+.contacts {}
 
+.contacts-list {}
 
-.information-list-material {}
+.contacts-list-content
 
+.contacts-list-mail {
+    line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+}
 
-.information-list-title {}
+.contacts-list-mail:hover {
+    color: #404bbf;
+}
 
+.contacts-list-mail:focus{
+    color: #404bbf;
+}
 
-.information-list-paragraph {}
+.contacts-list-telefon {
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.contacts-list-telefon:hover {
+    color: #404bbf;
+}
+
+.contacts-list-telefon:focus {
+    color: #404bbf;
+}
