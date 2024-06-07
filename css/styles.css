@@ -101,36 +101,21 @@ a {
     background-color: #404BBF;
 }
 
-.contacts {}
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.contacts:hover{
+    color: #404bbf;
+}
+
+.contacts:focus{
+    color: #404bbf;
+}
 
 .contacts-list {}
 
-.contacts-list-content
-
-.contacts-list-mail {
-    line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #434455;
-}
-
-.contacts-list-mail:hover {
-    color: #404bbf;
-}
-
-.contacts-list-mail:focus{
-    color: #404bbf;
-}
-
-.contacts-list-telefon {
-    line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
-.contacts-list-telefon:hover {
-    color: #404bbf;
-}
-
-.contacts-list-telefon:focus {
-    color: #404bbf;
-}
+.contacts-list-content {}
