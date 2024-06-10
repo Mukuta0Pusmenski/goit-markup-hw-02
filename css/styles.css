@@ -121,15 +121,15 @@ a {
     background-color: #404BBF;
 }
 /* --------------------------------- */
-/* Information-list */
+/* box-two-list */
 
-.box-information-list {}
+.box-two {}
 
-.information-list {}
+.box-two-list {}
 
-.information-list-material {}
+.box-two-item {}
 
-.information-list-title {
+.box-two-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -137,7 +137,7 @@ a {
     color: #2e2f42;
 }
 
-.information-list-paragraph {
+.box-two-paragraf {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
