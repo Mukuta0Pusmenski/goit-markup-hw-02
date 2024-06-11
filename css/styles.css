@@ -162,7 +162,7 @@ a {
     background-color: #FFFFFF;
 }
 
-.team-list-collective {
+.team-collective {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -171,7 +171,7 @@ a {
 
 }
 
-.team-list-information {
+.team-information {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
