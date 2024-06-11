@@ -158,9 +158,7 @@ a {
     color: #2e2f42;
 }
 
-.team-list {
-    background-color: #FFFFFF;
-}
+.team-list {}
 
 .team-collective {
     font-weight: 500;
@@ -176,4 +174,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.team-list-point{
+    background-color: #FFFFFF;
 }
