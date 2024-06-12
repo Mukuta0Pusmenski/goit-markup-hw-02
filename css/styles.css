@@ -145,37 +145,14 @@ a {
 }
 /* --- */
 /* box-three */
-.box-three {
-    background-color: #F4F4FD;
-}
+.box-three {}
 
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
+.team-title {}
 
 .team-list {}
 
-.team-collective {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.team-list-point {}
 
-}
+.team-information-title {}
 
-.team-information {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.team-list-point{
-    background-color: #FFFFFF;
-}
+.team-information-paragraf {}
