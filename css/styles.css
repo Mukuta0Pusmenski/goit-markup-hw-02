@@ -145,14 +145,35 @@ a {
 }
 /* --- */
 /* box-three */
-.box-three {}
+.box-three {
+    background-color: #F4F4FD;
+}
 
-.team-title {}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .team-list {}
 
-.team-list-point {}
+.team-list-point {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .team-information-title {}
 
-.team-information-paragraf {}
+.team-information-paragraf {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
