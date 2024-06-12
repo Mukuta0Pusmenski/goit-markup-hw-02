@@ -177,3 +177,21 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* --- */
+/* box-four */
+.box-four {}
+
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    etter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.portfolio-list {}
+
+.portfolio-design {}
+
+.portfolio-list-information {}
