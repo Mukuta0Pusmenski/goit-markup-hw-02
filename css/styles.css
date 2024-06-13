@@ -208,6 +208,7 @@ a {
         line-height: 120%;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
+        color:#2e2f42;
 }
 /* -=- */
 /* footer */
@@ -228,7 +229,7 @@ a {
 .footer-paragraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
 .footer-ikon-span{
